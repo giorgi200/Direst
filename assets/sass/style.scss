@@ -1,0 +1,164 @@
+$nav-regular-font:'sf-regular';
+.main-header {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0;
+    height: 45px;
+    background: rgba(0, 0, 0, .8);
+    .nav-logo{
+        width: 111px;
+        height: 51px;
+        transform: translateY(34%);
+
+    }
+    .main-nav {
+        margin: 0 auto;
+        height: 100%;
+        .main-nav-list {
+            font-family:'sf-regular';
+            list-style: none;
+            align-items: center;
+            padding:0;
+            margin-bottom: 0;
+            height: 100%;
+
+            .search-icon img{
+                height: 16px;
+                width: 16px;
+            }
+            .login-btn img{
+                width: 14px;
+                height: 15px;
+                margin-right: 3px;
+            }
+            .my-table-btn img{
+                height: 14px;
+                width: 26px;
+            }
+            .active{
+                color:#f9f9f9;
+            }
+
+            .nav-link{
+                color: #fff;
+                font-size: 14px;
+                line-height: 16px;
+                font-family: $nav-regular-font;
+                padding: 0;
+            }
+        }
+    }
+}
+
+main{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    .hero{
+        background-size: cover !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        height: 100vh;
+    }
+    .con1{
+        height: 100%;
+    }
+    .filter{
+        width: 600px;
+        left: 0;
+        bottom: 135px;
+        .fil-btn {
+            width: 291px;
+            margin-bottom: 30.5px;
+            .line{
+                height: 0.5px;
+                width: 100%;
+                background: #707070;
+                margin-top: 15px;
+                .line-br{
+                    background: #000;
+                    height: 2px;
+                    width: 50px;
+                    position: relative;
+                    top: -1px;
+                }
+            }
+            a {
+                font-family: 'sf-regular';
+                font-size: 14px;
+                line-height: 16px;
+                color: #050505;
+                margin-right: 55px;
+            }
+        }
+        
+    }
+    .commerc{
+        max-width: 941px;
+        width: 100%;
+        margin: 200px auto 335px auto;
+        .product-header{
+            font-family:'sf-semibold';
+            color:#000;
+            font-size: 25px;
+            line-height: 30px;
+            margin: 0;
+        }
+        .subheader{
+            font-family:'sf-semibold';
+            font-size: 20px;
+            line-height: 24px;
+            color: #000;
+            margin: 26px 0;
+        }
+        .mr-60{
+            margin-top: 60px;
+        }
+        .rm-f{
+            margin-top: 87px;
+            width: 100%;
+            display: flex;
+            flex-direction: row-reverse;
+            .rm{
+                font-size:15px;
+                line-height:18px;
+                color: #000;
+                width: auto;
+                font-family: 'sf-medium';
+            }
+        }
+        
+        .product-grid{
+            cursor: pointer;
+            .prod-img{
+                height: 180px;
+                margin:25px 0;
+                background-size: cover !important;
+                background-position: center !important;
+                background-repeat: no-repeat !important;
+            }
+            .nm-price h1{
+                color: #000;
+                font-size: 15px;
+                line-height: 18px;
+                font-family: 'sf-semibold';
+            }
+            .nm-price p{
+                color: #000;
+                font-size: 15px;
+                line-height: 18px;
+                font-family: 'sf-light';
+            }
+            .short-des{
+                color: #000;
+                font-size: 11px;
+                line-height: 13px;
+                font-family: 'sf-light';
+            }
+        }
+    }
+}
+footer{
+    height: 147px;
+    background: #e5e5e5;
+}

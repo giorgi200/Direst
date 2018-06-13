@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'sf-light';
+    src: url('../fonts/SF/SF-Light.otf');
+}
+@font-face {
+    font-family: 'sf-medium';
+    src: url('../fonts/SF/SF-Medium.otf');
+}
+@font-face {
+    font-family: 'sf-regular';
+    src: url('../fonts/SF/SF-Regular.otf');
+}
+@font-face {
+    font-family: 'sf-semibold';
+    src: url('../fonts/SF/SF-Semibold.otf');
+}

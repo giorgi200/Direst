@@ -1,0 +1,46 @@
+SF Pro Display
+Regular - 14px #050505
+
+SF Pro Display
+Medium - 12px #050505
+
+SF Pro Display
+Medium - 12px #FFFFFF
+
+SF Pro Display
+Semibold - 25px #000000
+
+SF Pro Display
+Semibold - 20px #000000
+
+SF Pro Display
+Semibold - 15px #000000
+
+SF Pro Display
+Light - 11px #000000
+
+SF Pro Display
+Semibold - 11px #000000
+
+SF Pro Display
+Light - 15px #000000
+
+SF Pro Display
+Medium - 15px #1D1D1D
+
+SF Pro Display
+Light - 12px #000000
+
+SF Pro Display
+Light - 8px #1D1D1D
+
+SF Pro Display
+Semibold - 8px #1D1D1D
+
+SF Pro Display
+Regular - 14px #9F9F9F
+
+
+--- navbar 
+SF Pro Display
+Regular - 14px #9F9F9F
