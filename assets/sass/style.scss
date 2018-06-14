@@ -1,4 +1,4 @@
-$nav-regular-font:'sf-regular';
+$nav-regular-font: 'sf-regular';
 .main-header {
     position: absolute;
     left: 0;
@@ -78,7 +78,7 @@ main{
                 .line-br{
                     background: #000;
                     height: 2px;
-                    width: 50px;
+                    width: 70px;
                     position: relative;
                     top: -1px;
                 }
@@ -91,7 +91,44 @@ main{
                 margin-right: 55px;
             }
         }
-        
+
+        .s-form {
+            width: 100%;
+            margin: 0px;
+            padding:0 !important;
+            .input-calendar{
+                margin-right: 13px;
+            }
+            .res-search-btn{
+                background: #4486E2;
+                border: solid 1px #4486E2;
+                border-radius: 2px;
+                margin-top: 31px;
+                box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+                color: #fff;
+                width: 105px;
+            }
+            .ins {
+                background: #fff;
+                width: 291px;
+                height: 43px;
+                flex: 1 1 45%;
+                display: flex;
+                .in-label {
+                    font-size: 12px;
+                    line-height: 14px;
+                    color: #050505;
+                    font-family: 'sf-medium';
+                    margin-bottom: 0;
+                }
+                img{
+                    width: 17px;
+                    height: 18px;
+                    margin-right: 15px;
+                    margin-left: 21px
+                }
+            }
+        }
     }
     .commerc{
         max-width: 941px;
@@ -161,4 +198,38 @@ main{
 footer{
     height: 147px;
     background: #e5e5e5;
+}
+
+// for Dishes
+.search-now{
+    height: 135px;
+    background: #F5F5F5;
+}
+.dish-com{
+    margin: 25px 0 0 0 !important;
+    .Dishes{
+
+        .Dishes-header{
+            font-family: 'sf-semibold';
+            line-height: 30px;   
+            font-size: 25px;
+            color: #000;    
+        }
+        .result{
+            font-size: 20px;
+            font-family: 'sf-semibold';
+            color: #000;
+            margin-bottom: 50px;
+        }
+    }
+}
+.pagination{
+    margin: 89px 0 74px 0;
+    a {
+        text-decoration: none;
+        color: #1D1D1D;
+        font-size: 15px;
+        line-height: 18px;
+        padding: 0 15px;
+    }
 }

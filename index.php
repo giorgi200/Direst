@@ -14,15 +14,15 @@
                             <div class="line-br"></div>
                         </div> 
                     </div> 
-                    <form action="#" class="row col-12">
+                    <form action="#" class="row col-12 s-form">
                         
-                        <div class="input-calendar col-6">
+                        <div class="input-calendar ins d-flex align-items-center">
                             <img src="assets/img/to.svg" alt="input-calendar">
                             <p class="in-label">Wed, Feb 10</p>
                         </div>
 
-                        <div class="input-guests col-6">
-                            <img src="assets/img/to.svg" alt="input-calendar">
+                        <div class="input-guests ins d-flex align-items-center">
+                            <img src="assets/img/to.svg" alt="input-guest">
                             <p class="in-label">10 Guests</p>
                         </div>
                         

@@ -4,8 +4,9 @@
   "description": "des",
   "main": "index.php",
   "scripts": {
-    "sass": "sass assets/sass/style.scss assets/css/style.css"
-  },
+    "sass": "sass assets/sass/style.scss assets/css/style.css",
+    "add": "git add --all"
+    },
   "repository": {
     "type": "git",
     "url": "davaleba"
