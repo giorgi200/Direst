@@ -1,4 +1,5 @@
 .main-header {
+  z-index: 100;
   position: absolute;
   left: 0;
   width: 100%;
@@ -185,5 +186,41 @@ footer {
     font-size: 15px;
     line-height: 18px;
     padding: 0 15px; }
+
+.single-dish {
+  margin-top: 148px;
+  max-width: 941px;
+  width: 100%;
+  background: #e5e5e5; }
+  .single-dish .img-sec {
+    max-width: 564px;
+    width: 100%;
+    height: 393px; }
+    .single-dish .img-sec img {
+      width: 100%;
+      height: 100%; }
+  .single-dish .details-sec {
+    width: 100%;
+    max-width: 273.5px; }
+    .single-dish .details-sec .custom-radio {
+      width: 11px;
+      height: 11px; }
+      .single-dish .details-sec .custom-radio .custom-control-label {
+        cursor: pointer; }
+      .single-dish .details-sec .custom-radio .custom-control-label::before {
+        border-radius: 54%;
+        background: transparent;
+        border: solid 2px #555555;
+        height: 11px;
+        width: 11px;
+        cursor: pointer; }
+      .single-dish .details-sec .custom-radio .custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+        background: #555555 !important;
+        border-radius: 54%;
+        width: 11px;
+        height: 11px;
+        border: solid 2px #555555;
+        outline: none !important;
+        box-shadow: none; }
 
 /*# sourceMappingURL=style.css.map */

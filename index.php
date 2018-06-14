@@ -39,73 +39,44 @@
                     <h1 class="product-header">Featured Dishes</h1>
                     <h2 class="subheader">Staff Picks</h2>
                     <div class="row product-grid row">
-                        <div class="prod col-4">
-                            <div class="prod-img" style="background:url('assets/img/download.jpeg')"></div>
-                            <div class="nm-price d-flex justify-content-between">
-                                <h1>Dish Name</h1>
-                                <p>₾ 15</p>
-                            </div>
-                            <p class="short-des">Dish Short Description</p>   
-                            <strong class="res-name">At Restaurant One</strong> 
-                        </div>
-                        <div class="prod col-4">
-                            <div class="prod-img" style="background:url('assets/img/images.jpeg')"></div>
-                            <div class="nm-price d-flex justify-content-between">
-                                <h1>Dish Name</h1>
-                                <p>₾ 15</p>
-                            </div>
-                            <p class="short-des">Dish Short Description</p>   
-                            <strong class="res-name">At Restaurant One</strong> 
-                        </div>
-                        <div class="prod col-4">
-                            <div class="prod-img" style="background:url('assets/img/download.jpeg')"></div>
-                            <div class="nm-price d-flex justify-content-between">
-                                <h1>Dish Name</h1>
-                                <p>₾ 15</p>
-                            </div>
-                            <p class="short-des">Dish Short Description</p>   
-                            <strong class="res-name">At Restaurant One</strong> 
-                        </div>
-                    </div>
+                    <?php for($rp = 0; $rp < 3; $rp++){ ?>
 
+                        <div class="prod col-4">
+                            <div class="prod-img" style="background:url('assets/img/download.jpeg')"></div>
+                            <div class="nm-price d-flex justify-content-between">
+                                <h1>Dish Name</h1>
+                                <p>₾ 15</p>
+                            </div>
+                            <p class="short-des">Dish Short Description</p>   
+                            <strong class="res-name">At Restaurant One</strong> 
+                        </div>
+
+                    <?php } ?>
+                    </div>
                     <h2 class="subheader">Recently Added</h2>
                     <div class="row product-grid row">
-                        <div class="prod col-4">
-                            <div class="prod-img" style="background:url('assets/img/download.jpeg')"></div>
-                            <div class="nm-price d-flex justify-content-between">
-                                <h1>Dish Name</h1>
-                                <p>₾ 15</p>
+                        <?php for($ra = 0; $ra < 3; $ra++){ ?>
+                            <div class="prod col-4">
+                                <div class="prod-img" style="background:url('assets/img/download.jpeg')"></div>
+                                <div class="nm-price d-flex justify-content-between">
+                                    <h1>Dish Name</h1>
+                                    <p>₾ 15</p>
+                                </div>
+                                <p class="short-des">Dish Short Description</p>   
+                                <strong class="res-name">At Restaurant One</strong> 
                             </div>
-                            <p class="short-des">Dish Short Description</p>   
-                            <strong class="res-name">At Restaurant One</strong> 
-                        </div>
-                        <div class="prod col-4">
-                            <div class="prod-img" style="background:url('assets/img/images.jpeg')"></div>
-                            <div class="nm-price d-flex justify-content-between">
-                                <h1>Dish Name</h1>
-                                <p>₾ 15</p>
-                            </div>
-                            <p class="short-des">Dish Short Description</p>   
-                            <strong class="res-name">At Restaurant One</strong> 
-                        </div>
-                        <div class="prod col-4">
-                            <div class="prod-img" style="background:url('assets/img/download.jpeg')"></div>
-                            <div class="nm-price d-flex justify-content-between">
-                                <h1>Dish Name</h1>
-                                <p>₾ 15</p>
-                            </div>
-                            <p class="short-des">Dish Short Description</p>   
-                            <strong class="res-name">At Restaurant One</strong> 
-                        </div>
+                        <?php } ?>
                     </div>
                     <div class="rm-f">
-                        <a href="#" class="rm">All Dishes ></a>
+                        <a href="Dishes.php" class="rm">All Dishes ></a>
                     </div>
                 </div>
                 <div class="res-sec">
                     <h1 class="product-header mr-60">Featured Restaurants</h1>
                     <h2 class="subheader">Recently Added</h2>
                     <div class="row product-grid row">
+                    <?php for($ra = 0; $ra < 3; $ra++){ ?>
+
                         <div class="prod col-4">
                             <div class="prod-img" style="background:url('assets/img/Optimizar-ventas-en-restaurante.jpg')"></div>
                             <div class="nm-price d-flex justify-content-between">
@@ -115,27 +86,10 @@
                             <p class="short-des">Dish Short Description</p>   
                             <strong class="res-name">At Restaurant One</strong> 
                         </div>
-                        <div class="prod col-4">
-                            <div class="prod-img" style="background:url('assets/img/sorella-clapham-5.jpg')"></div>
-                            <div class="nm-price d-flex justify-content-between">
-                                <h1>Dish Name</h1>
-                                <p>$$$</p>
-                            </div>
-                            <p class="short-des">Dish Short Description</p>   
-                            <strong class="res-name">At Restaurant One</strong> 
-                        </div>
-                        <div class="prod col-4">
-                            <div class="prod-img" style="background:url('assets/img/Optimizar-ventas-en-restaurante.jpg')"></div>
-                            <div class="nm-price d-flex justify-content-between">
-                                <h1>Dish Name</h1>
-                                <p>$$$</p>
-                            </div>
-                            <p class="short-des">Dish Short Description</p>   
-                            <strong class="res-name">At Restaurant One</strong> 
-                        </div>
+                    <?php } ?>
                     </div>
                     <div class="rm-f">
-                        <a href="#" class="rm">All Restaurants ></a>
+                        <a href="Restaurants.php" class="rm">All Restaurants ></a>
                     </div>
                 </div>
             </section>

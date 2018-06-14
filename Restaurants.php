@@ -13,6 +13,8 @@
                 <h1 class="Dishes-header">Featured Dishes</h1>
                 <h2 class="result">150 results</h2>
                 <div class="row product-grid row">
+                <?php for($ra = 0; $ra < 9; $ra++){ ?>
+
                     <div class="prod col-lg-4 col-md-10 col-12">
                         <div class="prod-img" style="background:url('assets/img/sorella-clapham-5.jpg')"></div>
                         <div class="nm-price d-flex justify-content-between">
@@ -22,78 +24,8 @@
                         <p class="short-des">Dish Short Description</p>   
                         <strong class="res-name">At Restaurant One</strong> 
                     </div>
-                    <div class="prod col-lg-4 col-md-10 col-12">
-                        <div class="prod-img" style="background:url('assets/img/Optimizar-ventas-en-restaurante.jpg')"></div>
-                        <div class="nm-price d-flex justify-content-between">
-                            <h1>Dish Name</h1>
-                            <p>$$$</p>
-                        </div>
-                        <p class="short-des">Dish Short Description</p>   
-                        <strong class="res-name">At Restaurant One</strong> 
-                    </div>
-                    <div class="prod col-lg-4 col-md-10 col-12">
-                        <div class="prod-img" style="background:url('assets/img/sorella-clapham-5.jpg')"></div>
-                        <div class="nm-price d-flex justify-content-between">
-                            <h1>Dish Name</h1>
-                            <p>$$$</p>
-                        </div>
-                        <p class="short-des">Dish Short Description</p>   
-                        <strong class="res-name">At Restaurant One</strong> 
-                    </div>
-                    <div class="prod col-lg-4 col-md-10 col-12">
-                        <div class="prod-img" style="background:url('assets/img/sorella-clapham-5.jpg')"></div>
-                        <div class="nm-price d-flex justify-content-between">
-                            <h1>Dish Name</h1>
-                            <p>$$$</p>
-                        </div>
-                        <p class="short-des">Dish Short Description</p>   
-                        <strong class="res-name">At Restaurant One</strong> 
-                    </div>
-                    <div class="prod col-lg-4 col-md-10 col-12">
-                        <div class="prod-img" style="background:url('assets/img/Optimizar-ventas-en-restaurante.jpg')"></div>
-                        <div class="nm-price d-flex justify-content-between">
-                            <h1>Dish Name</h1>
-                            <p>$$$</p>
-                        </div>
-                        <p class="short-des">Dish Short Description</p>   
-                        <strong class="res-name">At Restaurant One</strong> 
-                    </div>
-                    <div class="prod col-lg-4 col-md-10 col-12">
-                        <div class="prod-img" style="background:url('assets/img/sorella-clapham-5.jpg')"></div>
-                        <div class="nm-price d-flex justify-content-between">
-                            <h1>Dish Name</h1>
-                            <p>$$$</p>
-                        </div>
-                        <p class="short-des">Dish Short Description</p>   
-                        <strong class="res-name">At Restaurant One</strong> 
-                    </div>
-                    <div class="prod col-lg-4 col-md-10 col-12">
-                        <div class="prod-img" style="background:url('assets/img/sorella-clapham-5.jpg')"></div>
-                        <div class="nm-price d-flex justify-content-between">
-                            <h1>Dish Name</h1>
-                            <p>$$$</p>
-                        </div>
-                        <p class="short-des">Dish Short Description</p>   
-                        <strong class="res-name">At Restaurant One</strong> 
-                    </div>
-                    <div class="prod col-lg-4 col-md-10 col-12">
-                        <div class="prod-img" style="background:url('assets/img/Optimizar-ventas-en-restaurante.jpg')"></div>
-                        <div class="nm-price d-flex justify-content-between">
-                            <h1>Dish Name</h1>
-                            <p>$$$</p>
-                        </div>
-                        <p class="short-des">Dish Short Description</p>   
-                        <strong class="res-name">At Restaurant One</strong> 
-                    </div>
-                    <div class="prod col-lg-4 col-md-10 col-12">
-                        <div class="prod-img" style="background:url('assets/img/sorella-clapham-5.jpg')"></div>
-                        <div class="nm-price d-flex justify-content-between">
-                            <h1>Dish Name</h1>
-                            <p>$$$</p>
-                        </div>
-                        <p class="short-des">Dish Short Description</p>   
-                        <strong class="res-name">At Restaurant One</strong> 
-                    </div>
+
+                <?php } ?>
                 </div>
             </div>
         </section>

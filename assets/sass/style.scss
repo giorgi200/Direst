@@ -1,5 +1,6 @@
 $nav-regular-font: 'sf-regular';
 .main-header {
+    z-index: 100;
     position: absolute;
     left: 0;
     width: 100%;
@@ -231,5 +232,60 @@ footer{
         font-size: 15px;
         line-height: 18px;
         padding: 0 15px;
+    }
+}
+.single-dish{
+    margin-top: 148px;
+    max-width: 941px;
+    width: 100%;
+    background: #e5e5e5;
+    .img-sec{
+        max-width: 564px;
+        width: 100%;
+        height: 393px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .details-sec{
+        width: 100%;
+        max-width: 273.5px;
+        .pre-head{
+            h1{
+                font-size: 25px;
+                font-family: 'sf-semibold';
+                color:#000000;
+                line-height: 30px
+            }
+            p{
+
+            }
+        }
+
+        .custom-radio{
+            width: 11px;
+            height: 11px;
+            .custom-control-label{
+                cursor: pointer;
+            }
+            .custom-control-label::before{
+                border-radius: 54%;
+                background: transparent;
+                border: solid 2px #555555;
+                height: 11px;
+                width: 11px;
+                cursor: pointer;
+            }
+            .custom-radio .custom-control-input:checked~.custom-control-label::after{
+                background: #555555 !important;
+                border-radius: 54%;
+                width: 11px;
+                height: 11px;
+                border: solid 2px #555555;
+                outline: none !important;
+                box-shadow: none
+            }
+        }
     }
 }

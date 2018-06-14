@@ -7,13 +7,13 @@
                 <img src="assets/img/to.svg" alt="login">
             </li>
             <li class="nav-item active">
-                 <a class="nav-link active" href="#">Home</a>
+                 <a class="nav-link active" href="index.php">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Dishes</a>
+                <a class="nav-link" href="Dishes.php">Dishes</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Restuarents</a>
+                <a class="nav-link" href="Restaurants.php">Restuarents</a>
             </li>
         </ul>
         <!-- my-sections -->
