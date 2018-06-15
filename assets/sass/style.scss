@@ -310,7 +310,7 @@ footer{
                     width: 11px;
                     height: 11px;
                     border: solid 2px #555555;
-                    outline: none !important;
+                    box-shadow: none !important;
                     box-shadow: none;
                     left: 0;
                     top: 0;
@@ -372,7 +372,7 @@ footer{
                 background: transparent;
                 border: none;
                 border-bottom: solid 2px #BCBCBC;
-                outline: none !important;
+                box-shadow: none !important;
                 width: 57px;
             }
         }
@@ -404,5 +404,92 @@ footer{
             }
         }
         
+    }
+}
+.client-table{
+    margin-top: 135px;
+    .my-table{
+        width: 100%;
+        max-width: 474px;
+        .main-h1{
+            font-size: 25px;
+            line-height: 30px;
+            color: #000;
+            font-family: 'sf-semibold';
+            margin-bottom: 20px;
+        }
+        .res-name{
+            font-size: 20px;
+            line-height: 24px;
+            color: #000;
+            font-family: 'sf-semibold';
+            margin-bottom: 55px;
+        }
+    .sell-sec{
+        width: 272px;
+        .selected{
+            width: 100%;
+            height: 50px;
+            margin-bottom: 20px;
+            .sel-vis{
+                width: 100%;
+                .m-img{
+                    width: 46px;
+                    height: 49px;
+                    margin-right: 3px;
+                }
+                .sel-head{
+                    width: 95px;
+                    .selected-child{
+                        width: 100%;
+                        flex-direction: column;
+                    }
+                    .select-h1{
+                        font-size: 12px;
+                        line-height: 14px;
+                        color: #000;
+                        font-family: 'sf-semibold';
+                        width: 100%;
+                        margin-bottom: 0;
+                    }
+                    .selected-des{
+                        font-size: 9px;
+                        font-family: 'sf-light';
+                        line-height: 11px;
+                        color: #707070;
+                        width: 100%;
+                        margin-bottom: 0;
+                    }
+                   
+                }
+                .sel-lari { 
+                    color: #707070;
+                    font-size: 14px;
+                    line-height: 16px;
+                    font-family: 'helvetica-ragular';
+                    margin-bottom: 0;
+                }
+                .x-close {
+                    width: 4px;
+                    height: 4px;
+                    padding: 0;
+                    background: #555555;
+                    box-shadow: none !important;
+                    img{
+                        width: 4px;
+                        height: 4px;
+                        vertical-align: initial;
+                    }
+                }
+                .sel-remove{
+                    color: #FF0000;
+                    font-size: 12px;
+                    line-height: 14px;
+                    font-family: 'sf-semibold';
+                    padding: 0 !important;
+                }
+            }
+        }
+    }
     }
 }

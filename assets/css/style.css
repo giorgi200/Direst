@@ -253,7 +253,7 @@ footer {
           width: 11px;
           height: 11px;
           border: solid 2px #555555;
-          outline: none !important;
+          box-shadow: none !important;
           box-shadow: none;
           left: 0;
           top: 0; }
@@ -302,7 +302,7 @@ footer {
       background: transparent;
       border: none;
       border-bottom: solid 2px #BCBCBC;
-      outline: none !important;
+      box-shadow: none !important;
       width: 57px; }
     .single-dish .details-sec .send-single {
       margin-top: 55px;
@@ -327,5 +327,76 @@ footer {
         font-size: 12px;
         line-height: 14px;
         color: #808080; }
+
+.client-table {
+  margin-top: 135px; }
+  .client-table .my-table {
+    width: 100%;
+    max-width: 474px; }
+    .client-table .my-table .main-h1 {
+      font-size: 25px;
+      line-height: 30px;
+      color: #000;
+      font-family: 'sf-semibold';
+      margin-bottom: 20px; }
+    .client-table .my-table .res-name {
+      font-size: 20px;
+      line-height: 24px;
+      color: #000;
+      font-family: 'sf-semibold';
+      margin-bottom: 55px; }
+    .client-table .my-table .sell-sec {
+      width: 272px; }
+      .client-table .my-table .sell-sec .selected {
+        width: 100%;
+        height: 50px;
+        margin-bottom: 20px; }
+        .client-table .my-table .sell-sec .selected .sel-vis {
+          width: 100%; }
+          .client-table .my-table .sell-sec .selected .sel-vis .m-img {
+            width: 46px;
+            height: 49px;
+            margin-right: 3px; }
+          .client-table .my-table .sell-sec .selected .sel-vis .sel-head {
+            width: 95px; }
+            .client-table .my-table .sell-sec .selected .sel-vis .sel-head .selected-child {
+              width: 100%;
+              flex-direction: column; }
+            .client-table .my-table .sell-sec .selected .sel-vis .sel-head .select-h1 {
+              font-size: 12px;
+              line-height: 14px;
+              color: #000;
+              font-family: 'sf-semibold';
+              width: 100%;
+              margin-bottom: 0; }
+            .client-table .my-table .sell-sec .selected .sel-vis .sel-head .selected-des {
+              font-size: 9px;
+              font-family: 'sf-light';
+              line-height: 11px;
+              color: #707070;
+              width: 100%;
+              margin-bottom: 0; }
+          .client-table .my-table .sell-sec .selected .sel-vis .sel-lari {
+            color: #707070;
+            font-size: 14px;
+            line-height: 16px;
+            font-family: 'helvetica-ragular';
+            margin-bottom: 0; }
+          .client-table .my-table .sell-sec .selected .sel-vis .x-close {
+            width: 4px;
+            height: 4px;
+            padding: 0;
+            background: #555555;
+            box-shadow: none !important; }
+            .client-table .my-table .sell-sec .selected .sel-vis .x-close img {
+              width: 4px;
+              height: 4px;
+              vertical-align: initial; }
+          .client-table .my-table .sell-sec .selected .sel-vis .sel-remove {
+            color: #FF0000;
+            font-size: 12px;
+            line-height: 14px;
+            font-family: 'sf-semibold';
+            padding: 0 !important; }
 
 /*# sourceMappingURL=style.css.map */
