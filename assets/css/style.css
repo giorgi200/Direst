@@ -303,7 +303,8 @@ footer {
       border: none;
       border-bottom: solid 2px #BCBCBC;
       box-shadow: none !important;
-      width: 57px; }
+      width: 57px;
+      outline: none; }
     .single-dish .details-sec .send-single {
       margin-top: 55px;
       margin-bottom: 85px; }

@@ -4,24 +4,16 @@
   "description": "des",
   "private": true,
   "scripts": {
-    "sass": "sass assets/sass/style.scss assets/css/style.css",
-    "build": "webpack"
+    "sass": "sass assets/sass/style.scss assets/css/style.css"  
   },
   "repository": {
     "type": "git",
-    "url": "davaleba"
+    "url": "git+https://github.com/giorgi200/Disert.git"
   },
-  "author": "giorgi qochiashvili",
+  "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "css-loader": "^0.28.11",
-    "file-loader": "^1.1.11",
-    "style-loader": "^0.21.0",
-    "webpack": "^4.12.0",
-    "webpack-command": "^0.2.1"
+  "bugs": {
+    "url": "https://github.com/giorgi200/Disert/issues"
   },
-  "dependencies": {
-    "bootstrap": "^4.1.1",
-    "lodash": "^4.17.10"
-  }
+  "homepage": "https://github.com/giorgi200/Disert#readme"
 }

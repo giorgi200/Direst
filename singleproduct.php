@@ -64,8 +64,8 @@
                     <input type="number" id="Quantity" value="2">
                 </div>
                 <div class="send-single">
-                    <button class="btn order">Order</button>
-                    <a href="" class="go-back">Go back</a>
+                    <a href="#"class="btn order">Order</a>
+                    <a href="#" class="go-back">Go back</a>
                 </div>
             </div>
         </section>
