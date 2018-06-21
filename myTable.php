@@ -9,11 +9,13 @@
 			<div class="sell-sec">
 				<div class="selected align-items-center ">
 					<div class="sel-vis justify-content-between align-items-center d-flex">
-						<img src="assets/img/download.jpeg" class="m-img" alt="">
-						<div class="sel-head align-items-center">                
-							<div class="selected-child d-flex">
-								<h1 class="select-h1">Mushroom cream Soup</h1>
-								<p class="selected-des"> Short description goes here</p>
+						<div class="d-flex">
+							<img src="assets/img/download.jpeg" class="m-img" alt="">
+							<div class="sel-head align-items-center">                
+								<div class="selected-child d-flex">
+									<h1 class="select-h1">Mushroom cream Soup</h1>
+									<p class="selected-des"> Short description goes here</p>
+								</div>
 							</div>
 						</div>
 						<p class="sel-lari">₾ 15</p>
@@ -25,11 +27,13 @@
 				</div>
 				<div class="selected align-items-center ">
 					<div class="sel-vis justify-content-between align-items-center d-flex">
-						<img src="assets/img/download.jpeg"  class="m-img" alt="">
-						<div class="sel-head align-items-center">                
-							<div class="selected-child d-flex">
-								<h1 class="select-h1">Mushroom cream Soup</h1>
-								<p class="selected-des"> Short description goes here</p>
+						<div class="d-flex">
+							<img src="assets/img/download.jpeg"  class="m-img" alt="">
+							<div class="sel-head align-items-center">                
+								<div class="selected-child d-flex">
+									<h1 class="select-h1">Mushroom cream Soup</h1>
+									<p class="selected-des"> Short description goes here</p>
+								</div>
 							</div>
 						</div>
 						<p class="sel-lari">₾ 15</p>
@@ -41,11 +45,13 @@
 				</div>
 				<div class="selected align-items-center ">
 					<div class="sel-vis justify-content-between align-items-center d-flex">
-						<img src="assets/img/download.jpeg"  class="m-img" alt="">
-						<div class="sel-head align-items-center">                
-							<div class="selected-child d-flex">
-								<h1 class="select-h1">Mushroom cream Soup</h1>
-								<p class="selected-des"> Short description goes here</p>
+						<div class="d-flex">
+							<img src="assets/img/download.jpeg"  class="m-img" alt="">
+							<div class="sel-head align-items-center">                
+								<div class="selected-child d-flex">
+									<h1 class="select-h1">Mushroom cream Soup</h1>
+									<p class="selected-des"> Short description goes here</p>
+								</div>
 							</div>
 						</div>
 						<p class="sel-lari">₾ 15</p>
@@ -56,7 +62,7 @@
 					</div>
 				</div>
 			</div>
-			<p class="total-table">Total <strong>100 Gel</strong></p>
+			<p class="total-table">Total <strong> 100 Gel</strong></p>
 			<textarea id="send-comment" placeholder="Your comments to the restaurant"></textarea>
 			<button class="btn send-request">Send order request</button>
 		</section>

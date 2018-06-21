@@ -5,9 +5,7 @@
     <?php require_once('layout/header.php'); ?> 
     <main class="container single-dish">
         <section class="dish-com d-flex justify-content-between">
-            <div class="img-sec">
-                <img src="assets/img/download.jpeg" alt="">
-            </div>
+            <div class="img-sec" style="background: url(assets/img/download.jpeg);"></div>
             <div class="details-sec">
                 <div class="d-flex  justify-content-between pre-head">
                     <h1>Mushroom cream soup</h1>

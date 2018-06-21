@@ -3,52 +3,97 @@
     <!-- Collapse 1 -->
     <div class="card">
         <div class="card-header" id="headingOne">
-        <h5 class="mb-0 header-of-coll justify-content-between">
-            <button class="drop-down-dishes" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            Starters
-            </button>
-            <img src="assets/img/to.svg" class="dr-arrow" alt="">
-        </h5>
+            <div class="mb-0 header-of-coll justify-content-between d-flex collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <button class="drop-down-dishes" >Starters</button>
+                <img src="assets/img/to.svg" class="dr-arrow" alt="">
+            </div>
         </div>
 
-        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-        <div class="card-body collapse-card-dishes">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-        </div>
+        <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#collapse">
+            <div class="card-body collapse-card-dishes">
+               <?php for ($i=0; $i < 3; $i++) { ?>
+                <div class="sel-vis justify-content-between align-items-center d-flex">
+                    <div class="d-flex">
+                        <img src="assets/img/download.jpeg" class="m-img" alt="">
+                        <div class="sel-head align-items-center">                
+                            <div class="selected-child d-flex">
+                                <h1 class="select-h1">Mushroom cream Soup</h1>
+                                <p class="selected-des"> Short description goes here</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="from-lari d-flex">
+                        <p class="sel-from">From</p>
+                        <p class="sel-lari">₾ 15</p>
+                    </div>
+                    <button class="sel-order btn">Order</button>
+                </div>
+                <?php } ?>
+            </div>
         </div>
     </div>  
     <!-- Collapse 2 -->
     <div class="card">
         <div class="card-header" id="headingTwo">
-        <h5 class="mb-0 header-of-coll justify-content-between">
-            <button class="drop-down-dishes" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-            Main dishes
-            </button>
-            <img src="assets/img/to.svg" class="dr-arrow" alt="">
-        </h5>
+            <div class="mb-0 header-of-coll justify-content-between d-flex collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                <button class="drop-down-dishes" >Main dishes</button>
+                <img src="assets/img/to.svg" class="dr-arrow" alt="">
+            </div>
         </div>
 
         <div id="collapseTwo" class="collapse " aria-labelledby="headingTwo" data-parent="#collapse">
-        <div class="card-body collapse-card-dishes">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-        </div>
+            <div class="card-body collapse-card-dishes">
+                <?php for ($i=0; $i < 3; $i++) { ?>
+                <div class="sel-vis justify-content-between align-items-center d-flex">
+                    <div class="d-flex">
+                        <img src="assets/img/download.jpeg" class="m-img" alt="">
+                        <div class="sel-head align-items-center">                
+                            <div class="selected-child d-flex">
+                                <h1 class="select-h1">Mushroom cream Soup</h1>
+                                <p class="selected-des"> Short description goes here</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="from-lari d-flex">
+                        <p class="sel-from">From</p>
+                        <p class="sel-lari">₾ 15</p>
+                    </div>
+                    <button class="sel-order btn">Order</button>
+                </div>
+                <?php } ?>
+            </div>
         </div>
     </div>
     <!-- Collapse 3 -->
     <div class="card">
         <div class="card-header" id="headingThree">
-        <h5 class="mb-0 header-of-coll justify-content-between">
-            <button class="drop-down-dishes" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-            Desserts
-            </button>
-            <img src="assets/img/to.svg" class="dr-arrow" alt="">
-        </h5>
+            <div class="mb-0 header-of-coll justify-content-between d-flex collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                <button class="drop-down-dishes" >Desserts</button>
+                <img src="assets/img/to.svg" class="dr-arrow" alt="">
+            </div>
         </div>
 
         <div id="collapseThree" class="collapse " aria-labelledby="headingThree" data-parent="#collapse">
-        <div class="card-body collapse-card-dishes">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-        </div>
+            <div class="card-body collapse-card-dishes">
+                <?php for ($i=0; $i < 3; $i++) { ?>
+                <div class="sel-vis justify-content-between align-items-center d-flex">
+                    <div class="d-flex">
+                        <img src="assets/img/download.jpeg" class="m-img" alt="">
+                        <div class="sel-head align-items-center">                
+                            <div class="selected-child d-flex">
+                                <h1 class="select-h1">Mushroom cream Soup</h1>
+                                <p class="selected-des"> Short description goes here</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="from-lari d-flex">
+                        <p class="sel-from">From</p>
+                        <p class="sel-lari">₾ 15</p>
+                    </div>
+                    <button class="sel-order btn">Order</button>
+                </div>
+                <?php } ?>
+            </div>
         </div>
     </div>
 </div>
