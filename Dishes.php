@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php require_once('layout/head.php'); ?>  
-<body>
+<body >
     <?php require_once('layout/header.php'); ?>  
     <div class="search-now">
                 
     </div>
-    <main class="container">            
+    <main class="container"> 
+        <section class="my-modal " id="chmodal">
+            <div class="types-of-dishes mx-auto d-flex">
+                <h2 class="type-header mx-auto">Choose dish type</h2>
+                <img src="assets/img/to.svg" class="close-type">
+                <!-- Dishes -->
+                <?php for($rl = 0; $rl < 4; $rl++){ ?>
+                    <div class="prod mx-auto">
+                        <div class="prod-img" style="background:url('assets/img/download.jpeg')"></div>
+                        <div class="nm-price d-flex justify-content-between">
+                            <h1>Dish Name</h1>
+                            <p>₾ 15</p>
+                        </div>
+                        <p class="short-des">Dish Short Description</p>  
+                        <p class="shdf">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s. 
+                        </p>
+                    </div>
+                <?php } ?>
+            </div>
+        </section>           
         <section class="commerc dish-com">
 
             <div class="prod-sec Dishes">
@@ -34,5 +54,25 @@
     </main>
     <?php require_once('layout/footer.php'); ?>  
     <?php require_once('layout/scripts.php'); ?> 
+    <script>
+        const prod = document.getElementsByClassName('prod');
+        const closeImg = document.querySelector('.close-type');
+        const modal = document.getElementById('chmodal');
+        
+        for (let i = 0; i < prod.length; i++) {
+            prod[i].addEventListener('click', openTypes);
+        }
+        closeImg.addEventListener('click', closeTypes)
+
+        function openTypes() {
+            $('#chmodal').show();
+            $('body').css({"overflow-y": "hidden"});
+        }
+        function closeTypes() {
+            $('#chmodal').hide();
+            $('body').css({"overflow-y": "auto"});
+        }
+
+    </script>
 </body>
 </html>

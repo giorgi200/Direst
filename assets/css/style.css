@@ -192,6 +192,22 @@ footer {
   margin-top: 148px;
   max-width: 941px;
   width: 100%; }
+  .single-dish .finish-res {
+    padding-left: 27px;
+    width: 407px;
+    height: 57px;
+    border-radius: 7px;
+    border: solid 1px #A4DEC8;
+    font-size: 12px;
+    line-height: 14px;
+    color: #080808; }
+    .single-dish .finish-res .suc {
+      font-family: 'sf-semibold';
+      margin-right: 13px;
+      margin-bottom: 0; }
+    .single-dish .finish-res .success-res {
+      font-family: 'sf-medium';
+      margin-bottom: 0; }
   .single-dish .img-sec {
     max-width: 564px;
     width: 100%;
@@ -309,6 +325,8 @@ footer {
     .single-dish .details-sec .send-single {
       margin-top: 55px;
       margin-bottom: 85px; }
+      .single-dish .details-sec .send-single .disabled {
+        background: #C6C6C6 !important; }
       .single-dish .details-sec .send-single .order {
         background: #4486E2;
         border-radius: 2px;
@@ -399,7 +417,8 @@ footer {
             font-size: 12px;
             line-height: 14px;
             font-family: 'sf-semibold';
-            padding: 0 !important; }
+            padding: 0 !important;
+            box-shadow: none !important; }
     .client-table .my-table .total-table {
       margin-top: 40px;
       font-size: 12px;
@@ -544,6 +563,136 @@ footer {
           font-family: 'sf-semibold';
           padding: 0 !important;
           color: #383838; }
+
+.finished {
+  margin-top: 110px; }
+  .finished .finish-header {
+    font-size: 25px;
+    line-height: 30px;
+    font-family: 'sf-semibold';
+    margin-bottom: 20px;
+    margin-left: 15px; }
+  .finished .finish-res {
+    padding-left: 27px;
+    width: 551px;
+    height: 57px;
+    border-radius: 7px;
+    border: solid 1px #A4DEC8;
+    font-size: 12px;
+    line-height: 14px;
+    color: #080808; }
+    .finished .finish-res .suc {
+      font-family: 'sf-semibold';
+      margin-right: 13px;
+      margin-bottom: 0; }
+    .finished .finish-res .success-res {
+      font-family: 'sf-medium';
+      margin-bottom: 0; }
+  .finished .you-confirm {
+    color: #9F9F9F;
+    font-size: 12px;
+    line-height: 14px;
+    font-family: 'sf-semibold';
+    margin: 40px  0 50px 25px; }
+  .finished .order {
+    font-family: 'sf-Semibold';
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 15px; }
+  .finished .det-ord {
+    font-family: 'sf-Semibold';
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 15px;
+    margin-top: 14px; }
+  .finished .we-wo {
+    font-family: 'sf-light';
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 45px;
+    margin-bottom: 9px;
+    width: 265px; }
+  .finished .tele-con {
+    width: 175px;
+    height: 25px;
+    margin-bottom: 343px; }
+    .finished .tele-con img {
+      width: 25px;
+      height: 25px; }
+    .finished .tele-con .tele-no {
+      font-size: 14px;
+      font-family: 'sf-light'; }
+
+.my-modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  min-height: 100%;
+  background: rgba(255, 255, 255, 0.95);
+  border: solid 1px #707070;
+  z-index: 1000;
+  height: -webkit-fill-available;
+  overflow-y: auto;
+  display: none; }
+  .my-modal .types-of-dishes {
+    width: 100%;
+    max-width: 484px;
+    background: #fff;
+    flex-direction: column;
+    position: relative;
+    height: auto;
+    top: 45px; }
+    .my-modal .types-of-dishes .close-type {
+      width: 11px;
+      height: 11px;
+      position: absolute;
+      right: 30px;
+      top: 30px;
+      cursor: pointer; }
+    .my-modal .types-of-dishes .type-header {
+      margin-top: 60px;
+      font-size: 25px;
+      line-height: 30px;
+      font-family: 'sf-semibold';
+      width: 271px; }
+    .my-modal .types-of-dishes .prod {
+      width: 271px; }
+    .my-modal .types-of-dishes .shdf {
+      font-family: 'sf-light';
+      font-size: 14px;
+      line-height: 16px;
+      margin-top: 6px; }
+    .my-modal .types-of-dishes .prod-img {
+      height: 180px;
+      margin: 25px 0;
+      background-size: cover !important;
+      background-position: center !important;
+      background-repeat: no-repeat !important; }
+    .my-modal .types-of-dishes .nm-price h1 {
+      color: #000;
+      font-size: 15px;
+      line-height: 18px;
+      font-family: 'sf-semibold'; }
+    .my-modal .types-of-dishes .nm-price p {
+      color: #000;
+      font-size: 15px;
+      line-height: 18px;
+      font-family: 'sf-light'; }
+    .my-modal .types-of-dishes .short-des {
+      color: #000;
+      font-size: 11px;
+      line-height: 13px;
+      margin-bottom: 0;
+      font-family: 'sf-light'; }
+
+.send-single.cp {
+  margin-left: 15px; }
+  .send-single.cp .mt-link {
+    color: #4486E2 !important;
+    font-size: 15px !important;
+    line-height: 18px !important;
+    margin-left: 25px !important; }
 
 .collapsed .dr-arrow {
   transform: rotateX(180deg) !important; }

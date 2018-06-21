@@ -235,10 +235,30 @@ footer{
         padding: 0 15px;
     }
 }
+// Dish
 .single-dish{
     margin-top: 148px;
     max-width: 941px;
     width: 100%;
+    .finish-res{
+        padding-left: 27px;
+        width: 407px;
+        height: 57px;
+        border-radius: 7px;
+        border: solid 1px #A4DEC8;
+        font-size: 12px;
+        line-height: 14px;
+        color: #080808;
+        .suc{
+            font-family: 'sf-semibold';
+            margin-right: 13px;
+            margin-bottom: 0;
+        }
+        .success-res{
+            font-family: 'sf-medium';
+            margin-bottom: 0;
+        }
+    }
     .img-sec{
         max-width: 564px;
         width: 100%;
@@ -380,6 +400,9 @@ footer{
         .send-single{
             margin-top: 55px;
             margin-bottom: 85px;
+            .disabled{
+                background: #C6C6C6 !important;
+            }
             .order{
                 background: #4486E2;
                 border-radius: 2px;
@@ -488,6 +511,7 @@ footer{
                         line-height: 14px;
                         font-family: 'sf-semibold';
                         padding: 0 !important;
+                        box-shadow: none !important;
                     }
                 }
             }
@@ -534,7 +558,7 @@ footer{
 
 
 
-// single resaurants
+// single restaurants
 
 
 .call-dir {
@@ -682,6 +706,168 @@ footer{
         }
     }
 }
+// finished 
+
+.finished {
+    margin-top: 110px;
+    .finish-header{
+        font-size: 25px;
+        line-height: 30px;
+        font-family: 'sf-semibold';
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+    .finish-res{
+        padding-left: 27px;
+        width: 551px;
+        height: 57px;
+        border-radius: 7px;
+        border: solid 1px #A4DEC8;
+        font-size: 12px;
+        line-height: 14px;
+        color: #080808;
+        .suc{
+            font-family: 'sf-semibold';
+            margin-right: 13px;
+            margin-bottom: 0;
+        }
+        .success-res{
+            font-family: 'sf-medium';
+            margin-bottom: 0;
+        }
+    }
+    .you-confirm{
+        color: #9F9F9F;
+        font-size: 12px;
+        line-height: 14px;
+        font-family: 'sf-semibold';
+        margin: 40px  0 50px 25px;
+    }
+    .order{
+        font-family: 'sf-Semibold';
+        font-size: 20px;
+        line-height:24px;
+        margin-left: 15px;
+    }
+    .det-ord{
+        font-family: 'sf-Semibold';
+        font-size: 14px;
+        line-height: 16px;
+        margin-left: 15px;
+        margin-top: 14px;
+    }
+    .we-wo{
+        font-family: 'sf-light';
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 45px;
+        margin-bottom: 9px;
+        width: 265px;
+    }
+    .tele-con{
+        width: 175px;
+        height: 25px;
+        margin-bottom: 343px;
+        img{
+            width: 25px;
+            height: 25px;
+        }
+        .tele-no{
+            font-size: 14px;
+            font-family: 'sf-light';
+        }
+    }
+}
+
+// dish modal
+
+.my-modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: 100%;
+    background: rgba(255, 255, 255, .95);
+    border: solid 1px #707070;
+    z-index: 1000;
+    height:  -webkit-fill-available;
+    overflow-y: auto;
+    display: none;
+    .types-of-dishes{
+        width: 100%;
+        max-width: 484px;
+        background: #fff;
+        flex-direction: column;
+        position: relative;
+        height: auto;
+        top: 45px;
+        .close-type{
+            width: 11px;
+            height: 11px;
+            position: absolute;
+            right: 30px;
+            top: 30px;
+            cursor: pointer;
+        }
+        .type-header{
+            margin-top: 60px;
+            font-size: 25px;
+            line-height: 30px;
+            font-family: 'sf-semibold';
+            width: 271px;
+        }
+        .prod{        
+            width: 271px;
+        }
+        .shdf{
+            font-family: 'sf-light';
+            font-size: 14px;
+            line-height: 16px;
+            margin-top: 6px;
+        }
+        .prod-img{
+            height: 180px;
+            margin:25px 0;
+            background-size: cover !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+        }
+
+        .nm-price h1{
+            color: #000;
+            font-size: 15px;
+            line-height: 18px;
+            font-family: 'sf-semibold';
+        }
+        .nm-price p{
+            color: #000;
+            font-size: 15px;
+            line-height: 18px;
+            font-family: 'sf-light';
+        }
+        .short-des{
+            color: #000;
+            font-size: 11px;
+            line-height: 13px;
+            margin-bottom: 0;
+            font-family: 'sf-light';
+        }
+    }
+}
+
+
+// success dish
+.send-single.cp{
+    margin-left: 15px;
+
+    .mt-link{
+        color: #4486E2 !important;
+        font-size: 15px !important;
+        line-height: 18px !important;
+        margin-left: 25px !important;
+    }
+}
+// ============
 .collapsed .dr-arrow {
     transform: rotateX(180deg) !important;
 }

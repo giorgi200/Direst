@@ -62,8 +62,16 @@
                     <input type="number" id="Quantity" value="2">
                 </div>
                 <div class="send-single">
-                    <a href="#" class="btn order">Order</a>
-                    <a href="#" class="go-back">Go back</a>
+                    <a href="#" class="btn order disabled">Order</a>
+<!--                     <a href="#" class="go-back">Go back</a>
+ -->            </div>
+                <div class="finish-res d-flex align-items-center">
+                    <p class="suc">Success!</p>
+                    <p class="success-res">The order was successfully placed to the table</p>
+                </div>
+                <div class="send-single cp">
+                    <a href="#" class="go-back">My table</a>
+                    <a href="#" class="go-back mt-link"> Order more › </a>
                 </div>
             </div>
         </section>
