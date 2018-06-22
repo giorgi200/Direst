@@ -16,16 +16,28 @@
                     </div> 
                     <form action="#" class="row col-12 s-form">
                         
-                        <div class="input-calendar ins d-flex align-items-center">
+                        <input type="text" id="datepicker" class="input-calendar ins d-flex align-items-center">
+                        <!-- <div class="input-calendar ins d-flex align-items-center">
                             <img src="assets/img/to.svg" alt="input-calendar">
                             <p class="in-label">Wed, Feb 10</p>
-                        </div>
+                        </div> -->
 
-                        <div class="input-guests ins d-flex align-items-center">
+                        <!-- <div class="">
                             <img src="assets/img/to.svg" alt="input-guest">
                             <p class="in-label">10 Guests</p>
-                        </div>
-                        
+                        </div> -->
+                        <select id="speed">
+                            <option selected="">10 Guests</option>
+                            <option>9 Guests</option>
+                            <option>8 Guests</option>
+                            <option>7 Guests</option>
+                            <option>6 Guests</option>
+                            <option>5 Guests</option>
+                            <option>4 Guests</option>
+                            <option>3 Guests</option>
+                            <option>2 Guests</option>
+                            <option>1 Guests</option>
+                        </select>
                         <button class="btn res-search-btn">Search</button>
                     
                     </form>
@@ -96,5 +108,33 @@
         </main>
         <?php require_once('layout/footer.php'); ?>  
         <?php require_once('layout/scripts.php'); ?> 
+        <script>
+            $(document).ready(function(){
+			    $("#speed").selectmenu();
+                $("#datepicker").datepicker({
+                    minDate: new Date(),
+                    dateFormat: 'D, d M',
+                });
+                $("#datepicker").datepicker("setDate", new Date());
+
+		    });
+
+
+		
+            setTimeout(function(){
+                
+                var selectBtn = document.getElementById("speed-button")
+                var con = true;
+
+                selectBtn.addEventListener('click', function() {
+                    
+                    if (con) {
+                        $(".ui-menu-item-wrapper").prepend('<img src="assets/img/to.svg" class="select-gue">');
+                        con = false;
+                    }
+                })
+
+            }, 500) 
+        </script>
     </body>
     </html>

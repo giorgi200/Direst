@@ -88,23 +88,29 @@ main {
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
         color: #fff;
         width: 105px; }
-      main .filter .s-form .ins {
+      main .filter .s-form .ui-selectmenu-button {
+        border: none !important;
+        border-radius: 0 !important;
+        align-items: center;
+        padding: 0 17px !important;
+        outline: none !important; }
+        main .filter .s-form .ui-selectmenu-button .ui-icon {
+          background: url("../img/to.svg") !important;
+          background-size: contain !important;
+          background-repeat: no-repeat !important;
+          background-position: center !important;
+          margin-right: 15px; }
+      main .filter .s-form .ins, main .filter .s-form .ui-selectmenu-button {
         background: #fff;
         width: 291px;
         height: 43px;
         flex: 1 1 45%;
-        display: flex; }
-        main .filter .s-form .ins .in-label {
-          font-size: 12px;
-          line-height: 14px;
-          color: #050505;
-          font-family: 'sf-medium';
-          margin-bottom: 0; }
-        main .filter .s-form .ins img {
-          width: 17px;
-          height: 18px;
-          margin-right: 15px;
-          margin-left: 21px; }
+        display: flex;
+        font-size: 12px;
+        line-height: 14px;
+        color: #050505;
+        font-family: 'sf-medium';
+        margin-bottom: 0; }
   main .commerc {
     max-width: 941px;
     width: 100%;
@@ -693,6 +699,34 @@ footer {
     font-size: 15px !important;
     line-height: 18px !important;
     margin-left: 25px !important; }
+
+#speed-menu {
+  width: 291px !important;
+  border: none;
+  border-top: solid #c5c5c5 1px; }
+  #speed-menu .ui-menu-item-wrapper {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 !important;
+    font-size: 12px;
+    line-height: 14px;
+    color: #050505;
+    font-family: 'sf-medium';
+    margin-bottom: 0; }
+    #speed-menu .ui-menu-item-wrapper .select-gue {
+      width: 18px;
+      height: 17px;
+      margin-right: 15px;
+      margin-left: 20px; }
+  #speed-menu .ui-state-active {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    background: none !important;
+    color: #000 !important;
+    border: none !important; }
+
+#datepicker {
+  padding: 0 17px; }
 
 .collapsed .dr-arrow {
   transform: rotateX(180deg) !important; }
