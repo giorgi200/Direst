@@ -4,7 +4,27 @@
 <body >
     <?php require_once('layout/header.php'); ?>  
     <div class="search-now">
-                
+        <form action="#" class="row col-12 s-form">
+            <div class="input-group input-calendar ins">
+                <div class="input-group-prepend" id="back-of-calendar">
+                    <!-- <span class="input-group-text" id="back-of-calendar"> </span> -->
+                </div>
+                <input type="text" id="datepicker" class=" form-control d-flex align-items-center">
+            </div>
+            <select id="speed">
+                <option selected="">10 Guests</option>
+                <option>9 Guests</option>
+                <option>8 Guests</option>
+                <option>7 Guests</option>
+                <option>6 Guests</option>
+                <option>5 Guests</option>
+                <option>4 Guests</option>
+                <option>3 Guests</option>
+                <option>2 Guests</option>
+                <option>1 Guests</option>
+            </select>
+            <button class="btn res-search-btn">Search</button>
+        </form>
     </div>
     <main class="container"> 
         <section class="my-modal " id="chmodal">

@@ -51,7 +51,8 @@ main {
   main .con1 {
     height: 100%; }
   main .filter {
-    width: 600px;
+    max-width: 600px;
+    width: 100%;
     left: 0;
     bottom: 135px; }
     main .filter .fil-btn {
@@ -726,7 +727,19 @@ footer {
     border: none !important; }
 
 #datepicker {
-  padding: 0 17px; }
+  padding: 0 17px;
+  border: none;
+  border-radius: 0 !important; }
+
+#back-of-calendar {
+  width: 17px;
+  background: url(../img/to.svg);
+  background-size: contain !important;
+  height: 18px;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  align-self: center;
+  margin-left: 17px; }
 
 .collapsed .dr-arrow {
   transform: rotateX(180deg) !important; }
