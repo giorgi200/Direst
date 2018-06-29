@@ -1,45 +1,44 @@
 `1. Homepage`
 ----------------------------------------
-    ↳ Mobile    ✗
+    ↳ Mobile    ✔
     ↳ Desktop   ✔
 
 `2. Dishes`
 ----------------------------------------
-    ↳ Mobile    ✗ 
+    ↳ Mobile    ✔
     ↳ Desktop   ✔ 
 
 `3. Restaurants`
 ----------------------------------------
-    ↳ Mobile    ✗
+    ↳ Mobile    ✔
     ↳ Desktop   ✔
 
 `4. Dish`
 ----------------------------------------
-    ↳ Mobile    ✗
+    ↳ Mobile    ✔
     ↳ Desktop   ✔
 
 `5. Restaurant`
 ----------------------------------------
-    ↳ Mobile    ✗
+    ↳ Mobile    ✔
     ↳ Desktop   ✔
 
 `6. Finished`
 ----------------------------------------
-    ↳ Mobile    ✗
+    ↳ Mobile    ✔
     ↳ Desktop   ✔
 
 `7. Dish success`
 ----------------------------------------
-    ↳ Mobile    ✗
+    ↳ Mobile    ✔
     ↳ Desktop   ✔
 
 `9. Choose dish type`
 ----------------------------------------
-    ↳ Mobile    ✗
+    ↳ Mobile    ✔
     ↳ Desktop   ✔
 
 ❗❗❗
 ----------------------------------------
 - `❗ სად უნდა ეკლიკებოდეს პროდუქტს? `
-- `❗ jQuery ით სელექთების დასტილვა`
-- `❗ Webpack-ის დამატება`
+<!-- - `❗ Webpack-ის დამატება` -->

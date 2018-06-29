@@ -17,9 +17,7 @@
   },
   "homepage": "https://github.com/giorgi200/Disert#readme",
   "devDependencies": {
-    "webpack": "^4.12.0"
   },
   "dependencies": {
-    "bootstrap": "^4.1.1"
   }
 }
